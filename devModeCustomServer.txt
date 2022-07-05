@@ -1,0 +1,3 @@
+need to set up customer server = because we r using cookie based auth, we need both front and server running on same origin/domain.
+we need to use proxy for that because client is running on 3000 but server on 8000.
+in production, we can use same origin/domain so we dun have to worry about it. we can simply run build then start next app. 
